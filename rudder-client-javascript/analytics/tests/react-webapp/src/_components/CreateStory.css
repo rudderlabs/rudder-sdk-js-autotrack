@@ -1,0 +1,39 @@
+.createStory{
+    text-align: center;
+    margin-top:20px;
+    font-family:cursive;
+    font-size: 35px;
+    color: darkcyan;
+    font-weight: bold;
+    text-decoration: underline;
+    text-decoration-color: #00000073;
+}
+
+.introText{
+    
+    padding-left: 15px;
+    
+    align-content: center;
+      text-align: center;
+     font-family:  Helvetica;
+     font-size: 20px;
+}
+.promptCard{
+    /* height: 200px;*/ 
+    width: 40%;
+    padding: 0px 10px 10px 10px ;
+    margin-top:30px;
+    margin:20px;
+    border-color: black;
+   box-shadow: 0px 5px 20px rgb(31, 18, 18);
+   border-radius: 5px;
+   display: inline-block;
+   text-align: center;
+}
+.prompt{
+    margin-top: 10px;
+}
+.promptButtons{
+    margin-top: 10%;
+    display: block;
+}

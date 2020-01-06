@@ -1,0 +1,121 @@
+[
+  {
+    "id": 1,
+    "StoryName": "Fallout76",
+    "Genre": "Baby Toys",
+    "Description": "Nine noble families fight for control over the mythical lands of Westeros, while an ancient enemy returns after being dormant for thousands of years.",
+    "ImageAddress": "61l1xM-wHfL._AC_SS300_.jpg"
+  },
+  {
+    "id": 2,
+    "StoryName": "Tomb Raider",
+    "Genre": "PC Games",
+    "Description": "Lara Croft, the fiercely independent daughter of a missing adventurer, must push herself beyond her limits when she discovers the island where her father disappeared.",
+    "ImageAddress": "911M0rSyA2L._AC_SS300_.jpg"
+  },
+  {
+    "id": 3,
+    "StoryName": "DeadFire",
+    "Genre": "Baby Toys",
+    "Description": "1 year after the events of Redherring, Mike and Lucas have joined forces with a government group whose objective is to take out 'The Smiths', a terrorist organization who use packages in order to assassinate key political figures.",
+    "ImageAddress": "51Z5rN9MTbL.jpg"
+  },
+  {
+    "id": 4,
+    "StoryName": "Just Cause 4",
+    "Genre": "Baby Toys",
+    "Description": "Rico Rodriguez fights against a paramilitary group called the Black Hand who have very sinister plans intended.",
+    "ImageAddress": "71cftQmbMuL._AC_SS300_.jpg"
+  },
+  {
+    "id": 5,
+    "StoryName": "Yakuza",
+    "Genre": "Baby Toys",
+    "Description": "Kiryu Kazuma was brought up in the Sunflower Orphanage, and has been protected since his childhood by a lieutenant of the Dojima Family, affiliated with the Tokyo-based Tojo Clan of the Japanese organized crime syndicate, the yakuza. His back covered with a tattoo of a dragon, Kazuma soon becomes ...",
+    "ImageAddress": "71gQybXAqRL._AC_SS300_.jpg"
+  },
+  {
+    "id": 6,
+    "StoryName": "The Incredibles 2",
+    "Genre": "Baby Toys",
+    "Description": "Bob Parr (Mr. Incredible) is left to care for the kids while Helen (Elastigirl) is out saving the world.",
+    "ImageAddress": "71Qm-OJOQiL._AC_SS300_.jpg"
+  },
+  {
+    "id": 7,
+    "StoryName": "Assasin's Creed Odyssey",
+    "Genre": "Baby Toys",
+    "Description": "Set in 431 BC during the Pelopenesian War, play as either a male or female mercenary as you embark on your own epic odyssey to become a legendary Spartan hero in a world where every choice matters.",
+    "ImageAddress": "71til2IH2CL._AC_SS300_.jpg"
+  },
+  {
+    "id": 8,
+    "StoryName": "Battlefield IV",
+    "Genre": "Baby Toys",
+    "Description": "In Battlefield 4, players once again step into the role of the U.S. Marines. They will experience nail biting single player missions and competitive multiplayer action ranging from areas across the world.",
+    "ImageAddress": "81iyi3fEVZL._AC_SS300_.jpg"
+  },
+  {
+    "id": 9,
+    "StoryName": "The Crew 2",
+    "Genre": "Baby Toys",
+    "Description": "Take on the American motorsports scene as you explore and dominate the entire USA with a wide variety of cars, bikes, boats, and planes.",
+    "ImageAddress": "81VgY4pXwtL._AC_SS300_.jpg"
+  },
+  {
+    "id": 10,
+    "StoryName": "God of War",
+    "Genre": "Baby Toys",
+    "Description": "After wiping out the gods of Mount Olympus, Kratos moves on to the frigid lands of Scandinavia, where he and his son must embark on an odyssey across a dangerous world of gods and monsters.",
+    "ImageAddress": "91-w0IOeU5L._AC_SS300_.jpg"
+  },
+  {
+    "id": 11,
+    "StoryName": "Detroit : become human",
+    "Genre": "Baby Toys",
+    "Description": "Take control of three androids in their quest to discover who they really are.",
+    "ImageAddress": "91aFy6jNQxL._AC_SS300_.jpg"
+  },
+  {
+    "id": 10,
+    "StoryName": "God of War",
+    "Genre": "Baby Toys",
+    "Description": "This is baby toy description",
+    "ImageAddress": "91-w0IOeU5L._AC_SS300_.jpg"
+  },
+  {
+    "id": 11,
+    "StoryName": "Detroit : become human",
+    "Genre": "Baby Toys",
+    "Description": "This is baby toy description",
+    "ImageAddress": "91aFy6jNQxL._AC_SS300_.jpg"
+  },
+  {
+    "id": 10,
+    "StoryName": "God of War",
+    "Genre": "Baby Toys",
+    "Description": "This is baby toy description",
+    "ImageAddress": "91-w0IOeU5L._AC_SS300_.jpg"
+  },
+  {
+    "id": 11,
+    "StoryName": "Detroit : become human",
+    "Genre": "Baby Toys",
+    "Description": "This is baby toy description",
+    "ImageAddress": "91aFy6jNQxL._AC_SS300_.jpg"
+  },
+  {
+    "id": 10,
+    "StoryName": "God of War",
+    "Genre": "Baby Toys",
+    "Description": "This is baby toy description",
+    "ImageAddress": "91-w0IOeU5L._AC_SS300_.jpg"
+  },
+  {
+    "id": 11,
+    "StoryName": "Detroit : become human",
+    "Genre": "Baby Toys",
+    "Description": "This is baby toy description",
+    "ImageAddress": "91aFy6jNQxL._AC_SS300_.jpg"
+  }
+]

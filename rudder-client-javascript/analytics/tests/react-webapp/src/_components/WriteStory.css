@@ -1,0 +1,25 @@
+.textArea{
+  
+    margin-top: 20px;
+    width:50%;
+    height: 500px;
+    font-family:  Helvetica;
+    font-size: 0.9em;
+    font-weight: 400;
+}
+.textDiv{
+    text-align: center;
+}
+
+.card{
+    height: 200px;
+    width: 150px;
+    padding: 0px 10px 10px 10px ;
+    margin-top:30px;
+    margin:20px;
+    border-color: black;
+   box-shadow: 0px 5px 20px rgb(31, 18, 18);
+   border-radius: 5px;
+
+   
+}

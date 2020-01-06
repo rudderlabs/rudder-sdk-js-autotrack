@@ -7,8 +7,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "buildDevBrowser": "NODE_ENV=false uglify=false rollup -c",
     "buildProdBrowser": "NODE_ENV=false  ENV=prod uglify=true rollup -c",
-    "buildDevNode": "NODE_ENV=true uglify=false rollup -c",
-    "buildProdNode": "NODE_ENV=true ENV=prod uglify=true rollup -c"
+    "watch:integrations": "nodemon --watch integrations -x \"npm run  buildDevBrowser; echo tests/react-webapp/public/tmp tests/html | xargs -n 1 cp dist/browser.js  \""
   },
   "author": "",
   "license": "ISC",
@@ -22,6 +21,7 @@
     "component-cookie": "^1.1.4",
     "json3": "^3.3.3",
     "universal-analytics": "^0.4.20",
+    "watch": "^1.0.2",
     "xmlhttprequest": "^1.8.0"
   },
   "devDependencies": {

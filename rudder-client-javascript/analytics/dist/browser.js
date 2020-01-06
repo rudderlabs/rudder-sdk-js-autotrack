@@ -695,7 +695,8 @@ var rudderanalytics = (function (exports) {
     HS: index,
     GA: index$1,
     HOTJAR: index$2,
-    GOOGLEADS: index$3
+    GOOGLEADS: index$3 // HEAP: Heap.default
+
   };
 
   //Application class

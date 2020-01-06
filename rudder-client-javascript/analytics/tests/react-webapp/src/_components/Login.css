@@ -1,0 +1,44 @@
+.loginText{
+    font-family:'Courier New', Courier, monospace;
+    word-spacing: -6px;
+    font-size: 18px;
+    font-weight: 200;
+    color: #3a3332;
+}
+.inputSpace{
+    margin-top: 20px;
+}
+
+.text-signup{
+    background-color: transparent;
+    text-align: center;
+    font-size: 12px;
+    color:#767676;
+}
+.input{
+    height: 205px;
+    padding: 0px 10px 10px 10px ;
+    margin: 20px;
+    margin-left: 30%;
+    margin-top: 20px;
+    padding-top: 6px;
+   box-shadow:0px 1px 10px rgba(23, 22, 22, 0.64);
+   border-radius: 15px;
+    width: 35%;
+    display: block;
+    text-align: center;
+}
+.newSignUp{
+    margin-top: 30px;
+    text-align: center
+}
+.bigStorify{
+    text-align: center;
+    color:rgba(210, 160, 63, 3);
+    font-family: serif;
+    font-size: 30px;
+}
+.com{
+    display: inline;
+    font-size: 15px;
+}

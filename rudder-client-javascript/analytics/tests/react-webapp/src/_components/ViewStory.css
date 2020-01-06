@@ -1,0 +1,10 @@
+
+ .StoryContainer{
+     width: 70%;
+    height: 100%;
+    padding: 0px 10px 10px 10px ;
+    margin: 150px 100px 100px 100px;
+    border-color: black;
+   box-shadow: 0px 5px 20px rgb(202, 202, 202);
+   border-radius: 5px;
+}
