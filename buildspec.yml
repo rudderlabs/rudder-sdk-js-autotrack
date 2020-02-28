@@ -1,0 +1,12 @@
+version: 0.2
+phases:
+  install:
+    runtime-versions:
+      nodejs: 10
+  build:
+    commands:
+      - echo $WEB_S3_BUCKET
+      - npm install
+      - npm run buildDevBrowser
+      - aws cloudfront create-invalidation  --distribution-id $DISTRIBUTION_ID --paths "/browser.js"
+      - aws s3 sync ./dist/browser.js s3://$WEB_S3_BUCKET --acl public-read
