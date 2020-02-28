@@ -247,6 +247,7 @@ class Analytics {
    * @memberof Analytics
    */
   page(category, name, properties, options, callback) {
+    logger.debug("checking page deployment");
     if (typeof options == "function") (callback = options), (options = null);
     if (typeof properties == "function")
       (callback = properties), (options = properties = null);
