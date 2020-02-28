@@ -12,3 +12,4 @@ phases:
       - aws cloudfront create-invalidation  --distribution-id $DISTRIBUTION_ID --paths "/browser.js"
       - aws s3 sync ./dist/browser.js s3://$WEB_S3_BUCKET --acl public-read
       
+      
