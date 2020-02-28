@@ -21,6 +21,8 @@ import after from "after";
 
 //https://unpkg.com/test-rudder-sdk@1.0.5/dist/browser.js
 
+const configJSONString = rudderConfigJSON;
+
 /**
  * Add the rudderelement object to flush queue
  *
@@ -75,7 +77,7 @@ class Analytics {
     this.anonymousId = this.getAnonymousId();
     this.storage.setUserId(this.userId);
     this.eventRepository = EventRepository;
-    this.readyCallback = undefined;
+    this.readyCallback = () => {};
     this.executeReadyCallback = undefined;
   }
 
@@ -87,10 +89,12 @@ class Analytics {
    * @param {*} response
    * @memberof Analytics
    */
-  processResponse(status, response) {
+  processResponse(status, response1) {
     try {
       logger.debug("===in process response=== " + status);
-      response = JSON.parse(response);
+      //response = JSON.parse(response);
+      let response = configJSONString;//JSON.parse(this.configJSONString);
+      console.log(response);
       if (response.source.useAutoTracking) {
         this.autoTrackFeatureEnabled = true;
         addDomEventHandlers(this);
@@ -138,7 +142,7 @@ class Analytics {
   init(intgArray, configArray) {
     let self = this;
     logger.debug("supported intgs ", integrations);
-    this.clientIntegrationObjects = [];
+    // this.clientIntegrationObjects = [];
 
     if (!intgArray || intgArray.length == 0) {
       if (this.readyCallback) {
@@ -165,6 +169,7 @@ class Analytics {
         object.failedToBeLoadedIntegration.length ==
       object.clientIntegrations.length
     ) {
+      object.clientIntegrationObjects = [];
       object.clientIntegrationObjects = object.successfullyLoadedIntegration;
 
       object.executeReadyCallback = after(
@@ -677,7 +682,8 @@ class Analytics {
       this.eventRepository.url = serverUrl;
     }
     try {
-      getJSONTrimmed(this, configUrl, writeKey, this.processResponse);
+      //getJSONTrimmed(this, configUrl, writeKey, this.processResponse);
+      this.processResponse();
     } catch (error) {
       handleError(error);
       if (this.autoTrackFeatureEnabled && !this.autoTrackHandlersRegistered) {

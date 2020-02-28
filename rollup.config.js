@@ -8,6 +8,14 @@ import globals from "rollup-plugin-node-globals";
 import json from "rollup-plugin-json";
 import obfuscatorPlugin from "rollup-plugin-javascript-obfuscator";
 import { version } from "./package.json";
+let writeKey = "";
+if(process.env.writeKey){
+  writeKey = process.env.writeKey
+}
+let sourceJsonFileName = `./build/${writeKey}/sourceConfig-${writeKey}.json`;
+let sourceJson = require(sourceJsonFileName);
+sourceJson = JSON.stringify(sourceJson);
+console.log(sourceJson);
 export default {
   input: "analytics.js",
   external: ["Xmlhttprequest", "universal-analytics"],
@@ -15,8 +23,8 @@ export default {
     {
       file:
         process.env.ENV == "prod"
-          ? "dist/rudder-analytics.min.js"
-          : "dist/browser.js",
+          ? `dist/${writeKey}/rudder-analytics.min.js`
+          : `dist/${writeKey}/browser.js`,
       format: "iife",
       name: "rudderanalytics",
       sourceMap: true,
@@ -31,7 +39,8 @@ export default {
     replace({
       "process.browser": process.env.NODE_ENV == "true" ? false : true,
       "process.prod": process.env.ENV == "prod" ? true : false,
-      "process.package_version": version
+      "process.package_version": version,
+      "rudderConfigJSON": sourceJson
     }),
     resolve({
       jsnext: true,
