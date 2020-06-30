@@ -270,3 +270,5 @@ You can start adding integrations of your choice for sending data through their 
     We are using  **rollup**  to build our SDKs, configuration for it is present in  `rollup.config.js`  in the repo directory.
     
 -   For adding or removing integrations, modify the imports in  `index.js`  under integrations folder.
+
+
