@@ -958,6 +958,7 @@ class Analytics {
       this.eventRepository.url = serverUrl;
     }
     this.initializeUser();
+    this.eventRepository.initializeTransportMechanism();
     this.loaded = true;
     if (
       options &&
