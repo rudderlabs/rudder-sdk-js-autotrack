@@ -317,6 +317,8 @@ The SDK tracks the element attributes and text elements as properties of the DOM
 
 If an element with class `rudder-no-track` is present in the DOM, SDK will not track on that node along with any child nodes in the DOM tree.
 
+**Note**: To use AutoTrack functionality, use the sdk from https://cdn.rudderlabs.com/v1/rudder-analytics-autotrack.min.js in the above examples.
+
 
 # [](https://github.com/rudderlabs/rudder-sdk-js/blob/master/README.md#self-hosted-config-plane)Self-hosted Config Plane
 
